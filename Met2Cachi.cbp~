@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Met2Cachi" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Met2Cachi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-g" />
+					<Add directory="include" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Met2Cachi" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O2" />
+					<Add directory="include" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="include/DifDiv.h" />
+		<Unit filename="include/Lagrange.h" />
+		<Unit filename="include/RegresionLineal.h" />
+		<Unit filename="include/simpson13.h" />
+		<Unit filename="include/simpson38.h" />
+		<Unit filename="include/unamGUI.h" />
+		<Unit filename="main.cpp" />
+		<Unit filename="src/DifDiv.cpp" />
+		<Unit filename="src/Lagrange.cpp" />
+		<Unit filename="src/RegresionLineal.cpp" />
+		<Unit filename="src/simpson13.cpp" />
+		<Unit filename="src/simpson38.cpp" />
+		<Unit filename="src/unamGUI.cpp" />
+		<Extensions>
+			<code_completion />
+			<envvars />
+			<lib_finder disable_auto="1" />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
