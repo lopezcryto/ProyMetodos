@@ -15,12 +15,13 @@ simpson13::~simpson13()
 /// para tabla de datos procesados
 double simpson13D(){
 
-    // parametro  n numero de datos
+    /// parametro  n numero de datos
     /// importante
-    // parametro referencia de la tabla
-     // parametro a, b limites de integracion
+    /// parametro referencia de la tabla
+    /// parametro a, b limites de integracion
 
-     // Sumatoria de impares
+     /// Sumatoria de impares
+     /*
      int i =1;
      int j =1;
 
@@ -52,4 +53,5 @@ double simpson13D(){
 
 
   return (h/3.0)*(tabla[1][0] + 4*(impar) + 2*(par) +  tabla[1][n-1]);
+  */
 }

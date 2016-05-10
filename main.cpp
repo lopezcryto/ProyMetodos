@@ -29,58 +29,72 @@ int main()
 
 
 
-        switch(menu){
+//        switch(menu){
+
+        if ((menu == 'l') ||(menu =='L') ){
+                cout << "LAGRANGE"<< endl;
+
+        Lagrange metlag;
 
 
-    case 'l': case 'L':
-        cout << "LAGRANGE"<< endl;
-//        Lagrange Lagrange_run;
+        system(limpia_linux);
 
-system(limpia_linux);
-        break;
+        }
 
-    case 'd': case 'D':
-        cout << "DIFERENCIAS DIVIDIDAS"<<endl;
+
+    //case 'l': case 'L':
+
+      //  break;
+
+    //case 'd': case 'D':
+      //  cout << "DIFERENCIAS DIVIDIDAS"<<endl;
        // DifDiv DifDiv_run;
 
-       system(limpia_linux);
-        break;
+       //system(limpia_linux);
+        //break;
 
-    case 'r': case 'R':
-        cout << "REGRESION LINEAL"<<endl;
+    //case 'r': case 'R':
+      //  cout << "REGRESION LINEAL"<<endl;
 
       //  RegresionLineal RegresionLineal_run;
 
-      system(limpia_linux);
-        break;
+      //system(limpia_linux);
+       // break;
 
-    case 's': case 'S':
-        cout << "INTEGRACION NUMERICA"<< endl;
+    //case 's': case 'S':
+      //  cout << "INTEGRACION NUMERICA"<< endl;
        // SimpsonComp SimpsonComp;
 
-       system(limpia_linux);
-        break;
+       //system(limpia_linux);
+        //break;
 
 
-
-    case 'c': case 'C':
+    else if((menu == 'c' ) || (menu == 'C')){
         gui.creditos();
         gui.pausaLectura();
         system(limpia_linux);
-        break;
 
-    case 'a': case 'A':
+    }
+    //case 'c': case 'C':
+
+      //  break;
+
+      else if((menu == 'a' ) || (menu == 'A')){
         gui.ayuda();
         gui.pausaLectura();
         system(limpia_linux);
-        break;
+      }
+    //case 'a': case 'A':
 
-    case 'x': case 'X': return 0; break;
+      //  break;
+
+      else if((menu == 'x' ) || (menu == 'X')) return 0;
+    //case 'x': case 'X': return 0; break;
 
 
 
 
-        }
+        //}
     };
 
     return 0;
