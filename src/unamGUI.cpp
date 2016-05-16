@@ -58,19 +58,5 @@ cout << "\t\t5\t x \tSalir"<< endl;
 
 void unamGUI::pausaLectura()
 {
-cout << "Pausa de lectura para salir ingrese cualquier letra + [enter]";
-char a;
-cin >> a;
+ system();
 }
-
-
-
-
-
-
-
-
-
-
-
-
