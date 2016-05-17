@@ -1,5 +1,7 @@
 #include "unamGUI.h"
 #include <iostream>
+#include <cstdlib>
+
 using namespace std;
 
 unamGUI::unamGUI()
@@ -18,9 +20,9 @@ Genera el encabezado de la aplicacion
 **/
 void unamGUI::encabezado()
 {
-  cout << "\t\tUniversidad Nacional Autonoma de Mexico"<<endl;
-  cout << "\t\tFacultad de estudios superiores Acatlan"<<endl;
-  cout << "\t\tMetodos Numericos II Mayra Olguin"<<endl;
+  cout << "\t\t      Universidad Nacional Autonoma de Mexico"<<endl;
+  cout << "\t\t      Facultad de estudios superiores Acatlan"<<endl;
+  cout << "\t\          tMetodos Numericos II Mayra Olguin"<<endl;
 }
 
 /**
@@ -58,5 +60,5 @@ cout << "\t\t5\t x \tSalir"<< endl;
 
 void unamGUI::pausaLectura()
 {
- system();
+ system("speep 10");
 }
