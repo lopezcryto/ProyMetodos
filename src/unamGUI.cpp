@@ -22,7 +22,7 @@ void unamGUI::encabezado()
 {
   cout << "\t\t      Universidad Nacional Autonoma de Mexico"<<endl;
   cout << "\t\t      Facultad de estudios superiores Acatlan"<<endl;
-  cout << "\t\          tMetodos Numericos II Mayra Olguin"<<endl;
+  cout << "\t\t         Metodos Numericos II Mayra Olguin"<<endl;
 }
 
 /**
@@ -50,9 +50,10 @@ cout << "\t\t5\t 094161856 \tJimenez Molina Eduardo"<<endl;
 void unamGUI::menuapp()
 {
 cout << "\t\t1\t l \tMetodo Lagrange"<<endl;
-cout << "\t\t2\t d \tMetodo Diferencias divididas"<<endl;
-cout << "\t\t3\t r \tMetodos de regresion lineal"<<endl;
-cout << "\t\t4\t s \tMetodos de Simpson" <<endl;
+//cout << "\t\t2\t d \tMetodo Diferencias divididas"<<endl;
+//cout << "\t\t3\t r \tMetodos de regresion lineal"<<endl;
+cout << "\t\t4\t k \tMetodo de Simpson 1/3" <<endl;
+cout << "\t\t4\t m \tMetodo de Simpson 3/8" <<endl;
 cout << "\t\t5\t a \tAyuda"<<endl;
 cout << "\t\t5\t c \tCreditos"<<endl;
 cout << "\t\t5\t x \tSalir"<< endl;

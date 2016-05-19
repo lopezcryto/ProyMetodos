@@ -40,33 +40,20 @@ int main()
         system(limpia_linux);
 
         }
+        else if((menu == 'k') ||(menu =='K') ){
+                        cout << "SIMPSON 1/3"<< endl;
+                simpson13 mets1;
 
 
-    //case 'l': case 'L':
+        }
+        else if((menu == 'm') ||(menu =='M') ){
+            cout << "SIMPSON 3/8"<< endl;
+        simpson38 mets3;
 
-      //  break;
 
-    //case 'd': case 'D':
-      //  cout << "DIFERENCIAS DIVIDIDAS"<<endl;
-       // DifDiv DifDiv_run;
 
-       //system(limpia_linux);
-        //break;
 
-    //case 'r': case 'R':
-      //  cout << "REGRESION LINEAL"<<endl;
-
-      //  RegresionLineal RegresionLineal_run;
-
-      //system(limpia_linux);
-       // break;
-
-    //case 's': case 'S':
-      //  cout << "INTEGRACION NUMERICA"<< endl;
-       // SimpsonComp SimpsonComp;
-
-       //system(limpia_linux);
-        //break;
+        }
 
 
     else if((menu == 'c' ) || (menu == 'C')){
