@@ -47,7 +47,7 @@
 	"simpson13.h"
 	"simpson38.h"
 
-1463688286 source:/home/jime/ProyMetodos/main.cpp
+1463761463 source:/home/jime/ProyMetodos/main.cpp
 	<iostream>
 	<cstdlib>
 	"DifDiv.h"
@@ -63,9 +63,9 @@
 
 1463374758 /home/jime/ProyMetodos/include/RegresionLineal.h
 
-1463685138 /home/jime/ProyMetodos/include/simpson13.h
+1463766495 /home/jime/ProyMetodos/include/simpson13.h
 
-1463682738 /home/jime/ProyMetodos/include/simpson38.h
+1463765715 /home/jime/ProyMetodos/include/simpson38.h
 
 1463374758 /home/jime/ProyMetodos/include/unamGUI.h
 
@@ -79,15 +79,15 @@
 1463374758 source:/home/jime/ProyMetodos/src/RegresionLineal.cpp
 	"RegresionLineal.h"
 
-1463687821 source:/home/jime/ProyMetodos/src/simpson13.cpp
+1463767287 source:/home/jime/ProyMetodos/src/simpson13.cpp
 	"simpson13.h"
 	<iostream>
 
-1463683291 source:/home/jime/ProyMetodos/src/simpson38.cpp
+1463766353 source:/home/jime/ProyMetodos/src/simpson38.cpp
 	"simpson38.h"
 	<iostream>
 
-1463681859 source:/home/jime/ProyMetodos/src/unamGUI.cpp
+1463761463 source:/home/jime/ProyMetodos/src/unamGUI.cpp
 	"unamGUI.h"
 	<iostream>
 	<cstdlib>

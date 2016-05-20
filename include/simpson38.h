@@ -7,13 +7,18 @@ class simpson38
     public:
         simpson38();
         virtual ~simpson38();
-        float simpson38f(int n,float a,float b, float tabla[][2]);
-        float simpson38f_verbose(int n,float a,float b, float tabla[][2]);
+        void method(int n,  float **tabla, int verbose );
+        void charger(int n, float **tabla);
+        void viewTable(int n, float **tabla);
+        void get_area();
 
 
     protected:
 
     private:
+        int n_;
+        float **tabla_ ;
+        float area_;
 };
 
 #endif // SIMPSON38_H

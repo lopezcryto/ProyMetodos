@@ -1,6 +1,7 @@
 #include "unamGUI.h"
 #include <iostream>
 #include <cstdlib>
+#define time_linux "sleep 10"
 
 using namespace std;
 
@@ -39,12 +40,13 @@ cout << "Texto de ayuda" << endl;
 }
 
 void unamGUI::creditos(){
-cout << "\n\n\t\t\t\t\tCreditos de desarrollo \n " << endl;
+cout << "\n\n\t\t\t\t\t Creditos de desarrollo \n " << endl;
 cout << "\t\t1\t 094161856 \tJimenez Molina Eduardo"<<endl;
 cout << "\t\t2\t 094161856 \tJimenez Molina Eduardo"<<endl;
 cout << "\t\t3\t 094161856 \tJimenez Molina Eduardo"<<endl;
 cout << "\t\t4\t 094161856 \tJimenez Molina Eduardo"<<endl;
 cout << "\t\t5\t 094161856 \tJimenez Molina Eduardo"<<endl;
+system("sleep 15");
 }
 
 void unamGUI::menuapp()
@@ -61,5 +63,5 @@ cout << "\t\t5\t x \tSalir"<< endl;
 
 void unamGUI::pausaLectura()
 {
- system("speep 10");
+ system(time_linux);
 }

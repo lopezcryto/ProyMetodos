@@ -1,14 +1,17 @@
 #include <iostream>
 #include <cstdlib>
 
+#define limpia_linux "clear"
+
 #include "DifDiv.h"
 #include "Lagrange.h"
 #include "RegresionLineal.h"
 #include "simpson13.h"
 #include "simpson38.h"
 #include "unamGUI.h"
-#define limpia_linux "clear"
-#define limpia_win7 "cls"
+
+
+
 
 
 
@@ -27,9 +30,6 @@ int main()
         char menu;
         cin >> menu;
 
-
-
-//        switch(menu){
 
         if ((menu == 'l') ||(menu =='L') ){
                 cout << "LAGRANGE"<< endl;
@@ -50,9 +50,6 @@ int main()
             cout << "SIMPSON 3/8"<< endl;
         simpson38 mets3;
 
-
-
-
         }
 
 
@@ -62,27 +59,16 @@ int main()
         system(limpia_linux);
 
     }
-    //case 'c': case 'C':
-
-      //  break;
 
       else if((menu == 'a' ) || (menu == 'A')){
         gui.ayuda();
         gui.pausaLectura();
         system(limpia_linux);
       }
-    //case 'a': case 'A':
-
-      //  break;
 
       else if((menu == 'x' ) || (menu == 'X')) return 0;
-    //case 'x': case 'X': return 0; break;
 
-
-
-
-        //}
-    };
+      };
 
     return 0;
 }
