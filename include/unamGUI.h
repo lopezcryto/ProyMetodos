@@ -11,9 +11,9 @@
 
 #ifdef __MINGW32__
 
-#define Tiempolargo "sleep 10"
-#define Tiempocorto "sleep 3"
-#define Limpantalla "clear"
+#define Tiempolargo "timeout /t 10"
+#define Tiempocorto "timeout /t 3"
+#define Limpantalla "cls"
 
 #endif // __MINGW32__
 

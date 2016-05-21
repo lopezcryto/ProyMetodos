@@ -39,6 +39,7 @@
 		<Unit filename="include/RegresionLineal.h" />
 		<Unit filename="include/simpson13.h" />
 		<Unit filename="include/simpson38.h" />
+		<Unit filename="include/splincubico.h" />
 		<Unit filename="include/unamGUI.h" />
 		<Unit filename="main.cpp" />
 		<Unit filename="src/DifDiv.cpp" />
@@ -46,6 +47,7 @@
 		<Unit filename="src/RegresionLineal.cpp" />
 		<Unit filename="src/simpson13.cpp" />
 		<Unit filename="src/simpson38.cpp" />
+		<Unit filename="src/splincubico.cpp" />
 		<Unit filename="src/unamGUI.cpp" />
 		<Extensions>
 			<code_completion />
