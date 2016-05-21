@@ -47,15 +47,16 @@
 	"simpson13.h"
 	"simpson38.h"
 
-1463761463 source:/home/jime/ProyMetodos/main.cpp
+1463825707 source:/home/jime/ProyMetodos/main.cpp
 	<iostream>
 	<cstdlib>
+	"unamGUI.h"
 	"DifDiv.h"
 	"Lagrange.h"
 	"RegresionLineal.h"
 	"simpson13.h"
 	"simpson38.h"
-	"unamGUI.h"
+	"splincubico.h"
 
 1463374758 /home/jime/ProyMetodos/include/DifDiv.h
 
@@ -67,7 +68,7 @@
 
 1463765715 /home/jime/ProyMetodos/include/simpson38.h
 
-1463374758 /home/jime/ProyMetodos/include/unamGUI.h
+1463822398 /home/jime/ProyMetodos/include/unamGUI.h
 
 1463374758 source:/home/jime/ProyMetodos/src/DifDiv.cpp
 	"DifDiv.h"
@@ -87,8 +88,16 @@
 	"simpson38.h"
 	<iostream>
 
-1463761463 source:/home/jime/ProyMetodos/src/unamGUI.cpp
+1463823391 source:/home/jime/ProyMetodos/src/unamGUI.cpp
 	"unamGUI.h"
 	<iostream>
 	<cstdlib>
+
+1463825085 source:/home/jime/ProyMetodos/src/splincubico.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	"splincubico.h"
+
+1463824862 /home/jime/ProyMetodos/include/splincubico.h
 
