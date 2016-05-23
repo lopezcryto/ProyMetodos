@@ -1,7 +1,10 @@
 #include <iostream>
 #include <iomanip>
 #include <cmath>
+#include <cstdlib>
 #include "splincubico.h"
+#include "unamGUI.h"
+
 
 #define Tam 100
 using namespace std;
@@ -84,24 +87,21 @@ void splincubico::Invierte(int Dim, float Sist[][Tam], float Inv[][Tam])
 /// para el constructor
 void splincubico::spline_programa3()
 {
-    cout <<"SPLINE CUBICO ";
+    cout <<"SPLINE CUBICO";
     //int nd=0,posicion=0,grado=0, opcion=1;
     int nd=0,posicion=0, opcion=1;
     float numero=0,suma=0,DIF=0,respuesta=0;
     int nd1,nd2,nd3;
     //int Dimension;
     float Sistema[Tam][Tam],Inversa[Tam][Tam];
-    do
-    {
+    do{
 
 
 
-        do
-        {
+        do{
             cout<<"\n\t Ingresa el numero de datos minimo 4: ";
             cin>>nd;
-        }
-        while(nd<4);
+        }while(nd<4);
 
         nd1=nd-1;
         nd2=nd-2;
@@ -109,7 +109,7 @@ void splincubico::spline_programa3()
 
         //Dimension=nd3;
         float x[nd1],y[nd1],h[nd2],f[nd2],r[nd3],vr[nd3],s[nd1],a[nd2],b[nd2],c[nd2];
-        //float m[nd3][nd3];
+
 
         cout<<"\n\t Ingresa los datos: ";
         cout<<"\n\n\t |||Porfavor dar los datos ordenados de menor a mayor|||\n\n";
@@ -323,10 +323,9 @@ void splincubico::spline_programa3()
 
             respuesta=((a[posicion]*pow(DIF,3))+(b[posicion]*pow(DIF,2))+(c[posicion]*DIF)+y[posicion]);
             cout<<"\a\n\n\t Resultado:"<<respuesta;
-            //getch();
+            system(Tiempocorto);
 
-
-            //system("cls");
+            system(Limpantalla);
             // menu_programa3();
             cout<<"\n\n\t Elije una opcion:";
             cout<<"\n\t   1)  Interpolar otro punto con la misma tabla.";
@@ -337,11 +336,5 @@ void splincubico::spline_programa3()
         while(opcion==1);
     }
     while(opcion==2);
-
-
-    //return 0;
-
-
-
 
 }

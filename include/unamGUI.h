@@ -6,6 +6,7 @@
 #define Tiempolargo "sleep 10"
 #define Tiempocorto "sleep 3"
 #define Limpantalla "clear"
+#define Pausa "read -n1 -r -p \"Presiona una tecla para continuar...\" key"
 
 #endif // __linux__
 
@@ -14,6 +15,7 @@
 #define Tiempolargo "timeout /t 10"
 #define Tiempocorto "timeout /t 3"
 #define Limpantalla "cls"
+#define Pausa "pause"
 
 #endif // __MINGW32__
 

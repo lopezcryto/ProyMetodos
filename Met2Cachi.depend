@@ -47,7 +47,7 @@
 	"simpson13.h"
 	"simpson38.h"
 
-1463825707 source:/home/jime/ProyMetodos/main.cpp
+1463982297 source:/home/jime/ProyMetodos/main.cpp
 	<iostream>
 	<cstdlib>
 	"unamGUI.h"
@@ -58,27 +58,34 @@
 	"simpson38.h"
 	"splincubico.h"
 
-1463374758 /home/jime/ProyMetodos/include/DifDiv.h
+1463971562 /home/jime/ProyMetodos/include/DifDiv.h
 
 1463374758 /home/jime/ProyMetodos/include/Lagrange.h
 
-1463374758 /home/jime/ProyMetodos/include/RegresionLineal.h
+1463980374 /home/jime/ProyMetodos/include/RegresionLineal.h
 
 1463766495 /home/jime/ProyMetodos/include/simpson13.h
 
 1463765715 /home/jime/ProyMetodos/include/simpson38.h
 
-1463822398 /home/jime/ProyMetodos/include/unamGUI.h
+1463981287 /home/jime/ProyMetodos/include/unamGUI.h
 
-1463374758 source:/home/jime/ProyMetodos/src/DifDiv.cpp
+1463979470 source:/home/jime/ProyMetodos/src/DifDiv.cpp
 	"DifDiv.h"
+	<iostream>
 
 1463374758 source:/home/jime/ProyMetodos/src/Lagrange.cpp
 	"Lagrange.h"
 	<iostream>
 
-1463374758 source:/home/jime/ProyMetodos/src/RegresionLineal.cpp
+1463981737 source:/home/jime/ProyMetodos/src/RegresionLineal.cpp
 	"RegresionLineal.h"
+	"unamGUI.h"
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<iomanip>
+	<sstream>
 
 1463767287 source:/home/jime/ProyMetodos/src/simpson13.cpp
 	"simpson13.h"
@@ -88,16 +95,18 @@
 	"simpson38.h"
 	<iostream>
 
-1463823391 source:/home/jime/ProyMetodos/src/unamGUI.cpp
+1463979972 source:/home/jime/ProyMetodos/src/unamGUI.cpp
 	"unamGUI.h"
 	<iostream>
 	<cstdlib>
 
-1463825085 source:/home/jime/ProyMetodos/src/splincubico.cpp
+1463867688 source:/home/jime/ProyMetodos/src/splincubico.cpp
 	<iostream>
 	<iomanip>
 	<cmath>
+	<cstdlib>
 	"splincubico.h"
+	"unamGUI.h"
 
 1463824862 /home/jime/ProyMetodos/include/splincubico.h
 

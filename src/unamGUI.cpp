@@ -61,9 +61,9 @@ void unamGUI::creditos()
 {
     cout << "\n\n\t\t\t\t\t Creditos de desarrollo \n " << endl;
     cout << "\t\t\t 094161856 \tJimenez Molina Eduardo"<<endl;
-    cout << "\t\t\t 414490382 \tRamirez Velasquez Julian Andres"<<endl;
-    cout << "\t\t\t           \tGomez Corrado Cinthya Abigail"<<endl;
-    cout << "\t\t\t           \tGranados Cid Victor Mohadib "<<endl;
+    cout << "\t\t\t 414490381 \tRamirez Velasquez Julian Andres"<<endl;
+    cout << "\t\t\t 414027295 \tGomez Corrado Cinthya Abigail"<<endl;
+    cout << "\t\t\t 311662467 \tGranados Cid Victor Mohadib "<<endl;
 
 
     system(Tiempocorto);
@@ -76,7 +76,7 @@ void unamGUI::menuapp()
     cout << "\t\t\t m \tMetodo de Simpson 3/8" <<endl;
     cout << "\t\t\t n \tSpline Cubico" <<endl;
     cout << "\t\t\t o \tMetodo Diferencias divididas"<<endl;
-    cout << "\t\t\t p \tMetodos de regresion lineal"<<endl;
+    cout << "\t\t\t p \tRegresion lineal minimos cuadrados"<<endl;
 
     cout << "\t\t\t a \tAyuda"<<endl;
     cout << "\t\t\t c \tCreditos"<<endl;

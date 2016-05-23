@@ -1,8 +1,9 @@
 #include "DifDiv.h"
-
+#include <iostream>
+using namespace std;
 DifDiv::DifDiv()
 {
-    //ctor
+
 }
 
 DifDiv::~DifDiv()
