@@ -9,6 +9,8 @@
 	"simpson38.h"
 	"unamGUI.h"
 
+1463975588 "
+
 1462145677 /home/jime/ProyectoMetodos/Met2Cachi/include/DifDiv.h
 
 1462145837 /home/jime/ProyectoMetodos/Met2Cachi/include/Lagrange.h
@@ -22,14 +24,22 @@
 1462145678 source:/home/jime/ProyectoMetodos/Met2Cachi/src/DifDiv.cpp
 	"DifDiv.h"
 
+1463975588 
+
 1462145838 source:/home/jime/ProyectoMetodos/Met2Cachi/src/Lagrange.cpp
 	"Lagrange.h"
+
+1462145838 h"
 
 1462145934 source:/home/jime/ProyectoMetodos/Met2Cachi/src/RegresionLineal.cpp
 	"RegresionLineal.h"
 
+1462145934 Lineal.h"
+
 1462145992 source:/home/jime/ProyectoMetodos/Met2Cachi/src/simpson13.cpp
 	"simpson13.h"
+
+1462159710 .h"
 
 1462146050 source:/home/jime/ProyectoMetodos/Met2Cachi/src/simpson38.cpp
 	"simpson38.h"
@@ -42,6 +52,8 @@
 
 1462158709 source:/home/jime/ProyectoMetodos/Met2Cachi/src/SimpsonComp.cpp
 	"SimpsonComp.h"
+
+1462158709 mp.h"
 
 1462159710 /home/jime/ProyectoMetodos/Met2Cachi/include/SimpsonComp.h
 	"simpson13.h"
@@ -57,6 +69,8 @@
 	"simpson13.h"
 	"simpson38.h"
 	"splincubico.h"
+
+1464105798 co.h"
 
 1463971562 /home/jime/ProyMetodos/include/DifDiv.h
 
@@ -109,4 +123,199 @@
 	"unamGUI.h"
 
 1463824862 /home/jime/ProyMetodos/include/splincubico.h
+
+1464105691 source:c:\users\adm1\desktop\proymetodos-master\src\difdiv.cpp
+	"DifDiv.h"
+	"unamGUI.h"
+	<cstdlib>
+	<iostream>
+
+1464105274 c:\users\adm1\desktop\proymetodos-master\include\difdiv.h
+
+1463975588 source:c:\users\adm1\desktop\proymetodos-master\src\lagrange.cpp
+	"Lagrange.h"
+	<iostream>
+
+1463975588 c:\users\adm1\desktop\proymetodos-master\include\lagrange.h
+
+1464067581 source:c:\users\adm1\desktop\proymetodos-master\src\regresionlineal.cpp
+	"RegresionLineal.h"
+	"unamGUI.h"
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<iomanip>
+	<sstream>
+
+1463975588 c:\users\adm1\desktop\proymetodos-master\include\regresionlineal.h
+
+1463975588 c:\users\adm1\desktop\proymetodos-master\include\unamgui.h
+
+1463975588 source:c:\users\adm1\desktop\proymetodos-master\src\simpson13.cpp
+	"simpson13.h"
+	<iostream>
+
+1463975588 c:\users\adm1\desktop\proymetodos-master\include\simpson13.h
+
+1463975588 source:c:\users\adm1\desktop\proymetodos-master\src\simpson38.cpp
+	"simpson38.h"
+	<iostream>
+
+1463975588 c:\users\adm1\desktop\proymetodos-master\include\simpson38.h
+
+1463975588 source:c:\users\adm1\desktop\proymetodos-master\src\splincubico.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<cstdlib>
+	"splincubico.h"
+	"unamGUI.h"
+
+1463975588 c:\users\adm1\desktop\proymetodos-master\include\splincubico.h
+
+1463975588 source:c:\users\adm1\desktop\proymetodos-master\src\unamgui.cpp
+	"unamGUI.h"
+	<iostream>
+	<cstdlib>
+
+1464105798 source:c:\users\adm1\desktop\proymetodos-master\main.cpp
+	<iostream>
+	<cstdlib>
+	"unamGUI.h"
+	"DifDiv.h"
+	"Lagrange.h"
+	"RegresionLineal.h"
+	"simpson13.h"
+	"simpson38.h"
+	"splincubico.h"
+
+1463957588 source:/media/jime/0CA4-2794/ProyMetodos-master/src/Lagrange.cpp
+	"Lagrange.h"
+	<iostream>
+
+1463957588 /media/jime/0CA4-2794/ProyMetodos-master/include/Lagrange.h
+
+1463957588 source:/media/jime/0CA4-2794/ProyMetodos-master/src/simpson13.cpp
+	"simpson13.h"
+	<iostream>
+
+1463957588 /media/jime/0CA4-2794/ProyMetodos-master/include/simpson13.h
+
+1463957588 source:/media/jime/0CA4-2794/ProyMetodos-master/src/simpson38.cpp
+	"simpson38.h"
+	<iostream>
+
+1463957588 /media/jime/0CA4-2794/ProyMetodos-master/include/simpson38.h
+
+1463957588 source:/media/jime/0CA4-2794/ProyMetodos-master/src/splincubico.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<cstdlib>
+	"splincubico.h"
+	"unamGUI.h"
+
+1463957588 /media/jime/0CA4-2794/ProyMetodos-master/include/splincubico.h
+
+1463957588 /media/jime/0CA4-2794/ProyMetodos-master/include/unamGUI.h
+
+1463957588 source:/media/jime/0CA4-2794/ProyMetodos-master/src/unamGUI.cpp
+	"unamGUI.h"
+	<iostream>
+	<cstdlib>
+
+1464088494 source:/media/jime/0CA4-2794/ProyMetodos-master/src/DifDiv.cpp
+	"DifDiv.h"
+	"unamGUI.h"
+	<cstdlib>
+	<iostream>
+
+1464087276 /media/jime/0CA4-2794/ProyMetodos-master/include/DifDiv.h
+
+1464049582 source:/media/jime/0CA4-2794/ProyMetodos-master/src/RegresionLineal.cpp
+	"RegresionLineal.h"
+	"unamGUI.h"
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<iomanip>
+	<sstream>
+
+1463957588 /media/jime/0CA4-2794/ProyMetodos-master/include/RegresionLineal.h
+
+1464134173 source:/media/jime/0CA4-2794/ProyMetodos-master/main.cpp
+	<iostream>
+	<cstdlib>
+	"unamGUI.h"
+	"DifDiv.h"
+	"Lagrange.h"
+	"RegresionLineal.h"
+	"simpson13.h"
+	"simpson38.h"
+	"splincubico.h"
+
+1464134497 source:/home/jime/Escritorio/ProyMetodos-master/main.cpp
+	<iostream>
+	<cstdlib>
+	"unamGUI.h"
+	"DifDiv.h"
+	"Lagrange.h"
+	"RegresionLineal.h"
+	"simpson13.h"
+	"simpson38.h"
+	"splincubico.h"
+
+1463957588 /home/jime/Escritorio/ProyMetodos-master/include/unamGUI.h
+
+1464087276 /home/jime/Escritorio/ProyMetodos-master/include/DifDiv.h
+
+1463957588 /home/jime/Escritorio/ProyMetodos-master/include/Lagrange.h
+
+1463957588 /home/jime/Escritorio/ProyMetodos-master/include/RegresionLineal.h
+
+1463957588 /home/jime/Escritorio/ProyMetodos-master/include/simpson13.h
+
+1463957588 /home/jime/Escritorio/ProyMetodos-master/include/simpson38.h
+
+1463957588 /home/jime/Escritorio/ProyMetodos-master/include/splincubico.h
+
+1464088494 source:/home/jime/Escritorio/ProyMetodos-master/src/DifDiv.cpp
+	"DifDiv.h"
+	"unamGUI.h"
+	<cstdlib>
+	<iostream>
+
+1463957588 source:/home/jime/Escritorio/ProyMetodos-master/src/Lagrange.cpp
+	"Lagrange.h"
+	<iostream>
+
+1464049582 source:/home/jime/Escritorio/ProyMetodos-master/src/RegresionLineal.cpp
+	"RegresionLineal.h"
+	"unamGUI.h"
+	<iostream>
+	<cstdlib>
+	<cmath>
+	<iomanip>
+	<sstream>
+
+1464137497 source:/home/jime/Escritorio/ProyMetodos-master/src/simpson38.cpp
+	"simpson38.h"
+	<iostream>
+
+1463957588 source:/home/jime/Escritorio/ProyMetodos-master/src/splincubico.cpp
+	<iostream>
+	<iomanip>
+	<cmath>
+	<cstdlib>
+	"splincubico.h"
+	"unamGUI.h"
+
+1463957588 source:/home/jime/Escritorio/ProyMetodos-master/src/unamGUI.cpp
+	"unamGUI.h"
+	<iostream>
+	<cstdlib>
+
+1464136249 source:/home/jime/Escritorio/ProyMetodos-master/src/simpson13.cpp
+	"simpson13.h"
+	<iostream>
 

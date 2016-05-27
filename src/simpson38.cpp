@@ -8,10 +8,10 @@ simpson38::simpson38()
     er1:
     cout << "Número de datos a ingresar"<<endl;
     cin >> n_;
-    if(((n_ % 3) !=0) &&  (n_ >=3)){
+    //if(((n_ % 3) !=0) &&  (n_ >=3)){
         cout <<"El numero de datos debe ser factor de 3 y mayor o igual a 3"<<endl;
-        goto er1;
-    }
+      //  goto er1;
+    //}
 
     tabla_ = new float *[n_];
     for(int i=0; i<n_; i++){
@@ -21,7 +21,9 @@ simpson38::simpson38()
     charger(n_, tabla_);
     method(n_, tabla_, 0);
 
-    cout << "El Area bajo la curva es:"<< area_ ;
+
+
+    cout << "El Area bajo la curva es:"<< area_  ;
 
     cout << "Otra vez?[s/n]";
     char a;

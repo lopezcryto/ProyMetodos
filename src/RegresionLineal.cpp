@@ -14,42 +14,69 @@ RegresionLineal::RegresionLineal()
 {
     //ctor
     cout<<"\n\n   =Metodo de minimos cuadrados polinomial="<<endl<<"\n   ";
-    system(Pausa);
+
+    char salir;
+
+    salir = 'n';
+
     do
     {
-        system (Limpantalla);
+
+
         int nDatos,grado;
+
         bool op=false;
+
         string entrada;
+
         while(true)
         {
             cout<<"\n\tIntroduce la cantidad de puntos que vas a ingresar: ";
+
             getline(cin,entrada);
+
             stringstream mystream(entrada);
-            if (mystream>>nDatos)
-                break;
+
+            if (mystream>>nDatos) break;
+
             cout<<"\n\tEntrada invalida."<<endl;
         }
+
         double *X=new double[nDatos];
+
         double *Y=new double[nDatos];
+
         pedirdatos(X,Y,nDatos);
+
         while(true)
         {
             cout<<"\n\tIntroduce el grado del polinomio que deseas encontrar: ";
+
             getline(cin,entrada);
+
             stringstream mystream(entrada);
-            if (mystream>>grado)
-                break;
+
+            if (mystream>>grado) break;
             cout<<"\n\tEntrada invalida."<<endl;
         }
+
         double **matriz=new double*[grado+1];
+
         for (int i = 0; i < grado+1; ++i)
             matriz[i]=new double[grado+2];
+
         coeficientes(X,Y,matriz,grado,nDatos);
+
         recorrido(matriz,grado+1,op);
+
         imp(matriz,grado+1,op);
+
+        cout << "Para salir cualquier letra";
+
+        cin >> salir;
+
     }
-    while(1);
+    while(salir == 'n');
 }
 
 RegresionLineal::~RegresionLineal()

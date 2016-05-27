@@ -6,15 +6,15 @@ using namespace std;
 simpson13::simpson13()
 {
 
-    er1:
+    //er1:
 
     cout << "Numero de datos a ingresar"<<endl;
 
     cin >> n_;
-    if(((n_ % 2) !=0) &&  (n_ >=2)){
+    //if(((n_ % 2) !=0) &&  (n_ >=2)){
         cout <<"El numero de datos debe ser par y mayor o igual a 2"<<endl;
-        goto er1;
-    }
+       // goto er1;
+    //}
 
     tabla_ = new float *[n_];
     for(int i=0; i<n_; i++){
@@ -23,6 +23,11 @@ simpson13::simpson13()
 
     //carga(tabla);
     charger(n_, tabla_);
+
+    method(n_, tabla_,1);
+    get_area();
+
+
 
 }
 
@@ -161,4 +166,9 @@ void simpson13::viewTable(int n ,float **tabla){
             }
         cout <<"|"<<endl;
         }
+}
+
+void simpson13::get_area(){
+
+cout << "Resultado" << area_;
 }
